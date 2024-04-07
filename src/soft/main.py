@@ -10,7 +10,7 @@ from run import analyze_wav
 from send import send_file_to_com_port
 import serial
 
-com_port = '/dev/ttyUSB1'
+com_port = '/dev/ttyUSB0'
 
 pygame.init()
 pre_init(44100, -16, 1, 1024)
